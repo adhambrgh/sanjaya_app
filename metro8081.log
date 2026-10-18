@@ -1,0 +1,11 @@
+npm notice run sanjaya_app@1.0.0 npx
+npm notice run expo start --lan --clear
+Starting project at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:8081
+
+An update for expo is available: 57.0.27 → ~57.0.28
+3 other packages may need updating. Run npx expo install --check for details.
+Logs for your project will appear below.

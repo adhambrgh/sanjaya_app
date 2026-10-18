@@ -1,0 +1,1 @@
+export const getRootNav = (nav: any) => nav.getParent() ?? nav;

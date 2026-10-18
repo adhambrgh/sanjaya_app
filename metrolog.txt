@@ -1,0 +1,386 @@
+npm notice run sanjaya_app@1.0.0 npx
+npm notice run expo start --clear
+Starting project at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:8081
+
+Logs for your project will appear below.
+Web Bundled 30876ms index.ts (1 module)
+Web Bundled 9004ms index.ts (1 module)
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Cannot record touch end without a touch start.
+ Touch End: {"identifier":0,"pageX":265,"pageY":176,"timestamp":13171}
+ Touch Bank: []
+Web  WARN  Cannot record touch end without a touch start.
+ Touch End: {"identifier":0,"pageX":316,"pageY":77,"timestamp":13969.299999952316}
+ Touch Bank: []
+Web  WARN  Cannot record touch end without a touch start.
+ Touch End: {"identifier":0,"pageX":217,"pageY":134,"timestamp":15130.399999976158}
+ Touch Bank: []
+Web Bundled 93ms index.ts (1 module)
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Cannot record touch end without a touch start.
+ Touch End: {"identifier":0,"pageX":325,"pageY":84,"timestamp":965.6000000238419}
+ Touch Bank: []
+Web Bundled 88ms index.ts (1 module)
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Cannot record touch end without a touch start.
+ Touch End: {"identifier":0,"pageX":231,"pageY":115,"timestamp":1005.7000000476837}
+ Touch Bank: []
+ ERROR  SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>
+    at constructor (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.unexpected (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6642:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4587:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4594:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4603:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4679:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4704:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4767:17)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4777:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:39
+    at TypeScriptParserMixin.tryParse (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6930:20)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:18)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11706:28)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9809:20)
+    at TypeScriptParserMixin.parseFunctionBody (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12127:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12109:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11718:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+Web  ERROR  [TransformError: SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>]
+ ERROR  SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>
+    at constructor (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.unexpected (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6642:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4587:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4594:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4603:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4679:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4704:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4767:17)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4777:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:39
+    at TypeScriptParserMixin.tryParse (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6930:20)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:18)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11706:28)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9809:20)
+    at TypeScriptParserMixin.parseFunctionBody (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12127:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12109:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11718:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+Web  ERROR  [TransformError: SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>]
+ ERROR  SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>
+    at constructor (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.unexpected (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6642:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4587:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4594:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4603:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4679:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4704:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4767:17)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4777:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:39
+    at TypeScriptParserMixin.tryParse (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6930:20)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:18)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11706:28)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9809:20)
+    at TypeScriptParserMixin.parseFunctionBody (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12127:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12109:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11718:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+Web  ERROR  [TransformError: SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>]
+ ERROR  SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>
+    at constructor (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.unexpected (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6642:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4587:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4594:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4603:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4679:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4704:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4767:17)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4777:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:39
+    at TypeScriptParserMixin.tryParse (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6930:20)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:18)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11706:28)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9809:20)
+    at TypeScriptParserMixin.parseFunctionBody (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12127:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12109:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11718:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+Web  ERROR  [TransformError: SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>]
+ ERROR  SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>
+    at constructor (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:369:19)
+    at TypeScriptParserMixin.raise (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6622:19)
+    at TypeScriptParserMixin.unexpected (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6642:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4587:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4594:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4603:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4679:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4704:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4716:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4767:17)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4777:19)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:39
+    at TypeScriptParserMixin.tryParse (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:6930:20)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9798:18)
+    at C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:39
+    at TypeScriptParserMixin.allowInAnd (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12460:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10826:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12527:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11706:28)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+    at TypeScriptParserMixin.parseExprOps (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10930:23)
+    at TypeScriptParserMixin.parseMaybeConditional (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10907:23)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10857:21)
+    at TypeScriptParserMixin.parseMaybeAssign (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9809:20)
+    at TypeScriptParserMixin.parseFunctionBody (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12127:24)
+    at TypeScriptParserMixin.parseArrowExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:12109:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11718:12)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11362:23)
+    at TypeScriptParserMixin.parseExprAtom (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:4782:20)
+    at TypeScriptParserMixin.parseExprSubscripts (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11107:23)
+    at TypeScriptParserMixin.parseUpdate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11092:21)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:11072:23)
+    at TypeScriptParserMixin.parseMaybeUnary (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:9860:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\node_modules\@babel\parser\lib\index.js:10925:61)
+Web  ERROR  [TransformError: SyntaxError: C:\laragon\www\buat_jualan_website\pesanan_client\zahra\sanjaya_app\src\screens\admin\AdminInventoryScreen.tsx: Unexpected token (213:36)
+
+  211 |                 // harga dalam format Rupiah
+  212 |                 <Text style={styles.rowPrice}>{rp(p.price)}</Text>
+> 213 |                 // stok; jika stok <= 8 beri style tambahan "low" (peringatan) dan teks "Sisa x"
+      |                                     ^
+  214 |                 <Text style={[styles.rowStock, p.stock <= 8 && styles.low]}>{p.stock <= 8 ? `Sisa ${p.stock}` : `${p.stock} unit`}</Text>
+  215 |               </View>
+  216 |             </View>]
+Web  WARN  GoTrueClient@sb-hutraaxldkyvhbvqebqq-auth-token:1 (2.117.3) 2026-10-12T10:55:20.876Z Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+Web Bundled 1878ms index.ts (1 module)
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
